@@ -500,6 +500,15 @@ h6 {
   line-height: 1.25;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #233f8e;
+}
+
 h1 {
   font-size: 2.25em;
 }
@@ -1968,7 +1977,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 768px) {
   .site-header {
     margin: 0;
-    padding: 3rem 0;
+    padding: 0 0 3rem;
   }
   .site-header.featured-image {
     min-height: 100vh;

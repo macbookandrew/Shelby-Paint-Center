@@ -33,6 +33,7 @@
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 			}
 			?>
+			&copy;<?php echo esc_attr( date( 'Y' ) ) . ' ' . esc_html( get_bloginfo( 'name' ) ); ?>
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
 				<nav class="footer-navigation" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">
 					<?php

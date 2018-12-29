@@ -24,12 +24,16 @@
 			color: $color__link;
 			display: inline;
 			position: relative;
+			padding: 0.5em;
+
+			&:hover {
+				background-color: $color__link-hover-bg;
+			}
 
 			> a {
 
 				font-weight: 700;
 				color: $color__link;
-				margin-right: #{0.5 * $size__spacing-unit};
 
 				+ svg {
 					margin-right: #{0.5 * $size__spacing-unit};
@@ -211,7 +215,7 @@
 
 		display: block;
 		left: 0;
-		margin-top: 0;
+		margin-top: 0.5em;
 		opacity: 1;
 		width: auto;
 		min-width: 100%;
@@ -220,7 +224,7 @@
 		/* Non-mobile position */
 		@include media(tablet) {
 			display: block;
-			margin-top: 0;
+			margin-top: 0.5em;
 			opacity: 1;
 			position: absolute;
 			left: 0;
@@ -286,7 +290,7 @@
 
 		display: block;
 		left: 0;
-		margin-top: 0;
+		margin-top: 0.5em;
 		opacity: 1;
 		width: auto;
 		min-width: 100%;
@@ -296,7 +300,7 @@
 		@include media(tablet) {
 			display: block;
 			float: none;
-			margin-top: 0;
+			margin-top: 0.5em;
 			opacity: 1;
 			position: absolute;
 			left: 0;

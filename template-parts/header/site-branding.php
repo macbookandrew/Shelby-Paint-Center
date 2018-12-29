@@ -9,26 +9,10 @@
 ?>
 <div class="site-branding">
 
-	<?php if ( has_custom_logo() ) : ?>
-		<div class="site-logo"><?php the_custom_logo(); ?></div>
-	<?php endif; ?>
-	<?php $blog_info = get_bloginfo( 'name' ); ?>
-	<?php if ( ! empty( $blog_info ) ) : ?>
-		<?php if ( is_front_page() && is_home() ) : ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<?php else : ?>
-			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-		<?php endif; ?>
-	<?php endif; ?>
+	<div class="logo">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/img/Shelby-Paint-Center.svg' ); ?>" alt="<?php bloginfo( 'name' ); ?>" width="500" /></a>
+	</div>
 
-	<?php
-	$description = get_bloginfo( 'description', 'display' );
-	if ( $description || is_customize_preview() ) :
-		?>
-			<p class="site-description">
-				<?php echo $description; ?>
-			</p>
-	<?php endif; ?>
 	<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentynineteen' ); ?>">
 			<?php

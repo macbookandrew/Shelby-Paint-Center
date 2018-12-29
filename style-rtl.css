@@ -797,7 +797,7 @@ h6 {
 
 h1:not(.site-title):before,
 h2:before {
-  background: #767676;
+  background: #d1d1d1;
   content: "\020";
   display: block;
   height: 2px;
@@ -806,7 +806,7 @@ h2:before {
 }
 
 hr {
-  background-color: #767676;
+  background-color: #d1d1d1;
   border: 0;
   height: 2px;
 }
@@ -866,7 +866,7 @@ blockquote > p {
 }
 
 blockquote cite {
-  color: #767676;
+  color: #d1d1d1;
 }
 
 table {
@@ -879,7 +879,7 @@ table {
 table td,
 table th {
   padding: 0.5em;
-  border: 1px solid #767676;
+  border: 1px solid #d1d1d1;
   word-break: break-all;
 }
 
@@ -1686,7 +1686,7 @@ body.page .main-navigation {
 }
 
 .post-navigation .nav-links a .meta-nav {
-  color: #767676;
+  color: #d1d1d1;
   user-select: none;
 }
 
@@ -1694,7 +1694,7 @@ body.page .main-navigation {
   display: none;
   content: "—";
   width: 2em;
-  color: #767676;
+  color: #d1d1d1;
   height: 1em;
 }
 
@@ -1977,7 +1977,7 @@ body.page .main-navigation {
 }
 
 .site-branding {
-  color: #767676;
+  color: #d1d1d1;
   position: relative;
 }
 
@@ -2080,7 +2080,7 @@ body.page .main-navigation {
 
 .site-description {
   display: inline;
-  color: #767676;
+  color: #d1d1d1;
   font-weight: normal;
   margin: 0;
 }
@@ -2439,7 +2439,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-title:before {
-  background: #767676;
+  background: #d1d1d1;
   content: "\020";
   display: block;
   height: 2px;
@@ -2457,7 +2457,7 @@ body.page .main-navigation {
 
 .entry .entry-meta,
 .entry .entry-footer {
-  color: #767676;
+  color: #d1d1d1;
   font-weight: 500;
 }
 
@@ -2722,7 +2722,7 @@ body.page .main-navigation {
 }
 
 .author-bio .author-title:before {
-  background: #767676;
+  background: #d1d1d1;
   content: "\020";
   display: block;
   height: 2px;
@@ -2732,7 +2732,7 @@ body.page .main-navigation {
 
 .author-bio .author-description {
   display: inline;
-  color: #767676;
+  color: #d1d1d1;
   font-size: 1.125em;
   line-height: 1.2;
 }
@@ -2811,7 +2811,7 @@ body.page .main-navigation {
 }
 
 .comments-area .comments-title-wrap .comments-title:before {
-  background: #767676;
+  background: #d1d1d1;
   content: "\020";
   display: block;
   height: 2px;
@@ -2897,7 +2897,7 @@ body.page .main-navigation {
 
 .comment-list .pingback .comment-body,
 .comment-list .trackback .comment-body {
-  color: #767676;
+  color: #d1d1d1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 0.71111em;
   font-weight: 500;
@@ -2916,7 +2916,7 @@ body.page .main-navigation {
 
 .comment-list .pingback .comment-body .comment-edit-link,
 .comment-list .trackback .comment-body .comment-edit-link {
-  color: #767676;
+  color: #d1d1d1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
 }
@@ -3013,7 +3013,7 @@ body.page .main-navigation {
 .comment .comment-metadata .comment-edit-link {
   display: inline;
   font-weight: 500;
-  color: #767676;
+  color: #d1d1d1;
   vertical-align: baseline;
 }
 
@@ -3033,13 +3033,13 @@ body.page .main-navigation {
 }
 
 .comment .comment-metadata .edit-link-sep {
-  color: #767676;
+  color: #d1d1d1;
   margin: 0 0.2em;
   vertical-align: baseline;
 }
 
 .comment .comment-metadata .edit-link {
-  color: #767676;
+  color: #d1d1d1;
 }
 
 .comment .comment-metadata .edit-link svg {
@@ -3135,7 +3135,7 @@ body.page .main-navigation {
 .comment-form label {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 0.71111em;
-  color: #767676;
+  color: #d1d1d1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -3179,7 +3179,7 @@ body.page .main-navigation {
 .archive .page-header .page-title,
 .search .page-header .page-title,
 .error404 .page-header .page-title {
-  color: #767676;
+  color: #d1d1d1;
   display: inline;
   letter-spacing: normal;
 }
@@ -3208,7 +3208,7 @@ body.page .main-navigation {
 .error404 .page-header .page-description:after {
   content: ".";
   font-weight: bold;
-  color: #767676;
+  color: #d1d1d1;
 }
 
 .archive .page-header .page-description {
@@ -3280,7 +3280,7 @@ body.page .main-navigation {
 }
 
 #colophon .site-info {
-  color: #767676;
+  color: #d1d1d1;
   background-color: #233f8e;
 }
 
@@ -3336,7 +3336,7 @@ body.page .main-navigation {
 .widget_recent_comments ul li,
 .widget_recent_entries ul li,
 .widget_rss ul li {
-  color: #767676;
+  color: #d1d1d1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: calc(22px * 1.125);
   font-weight: 700;
@@ -3679,7 +3679,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-archives li,
 .entry .entry-content .wp-block-categories li,
 .entry .entry-content .wp-block-latest-posts li {
-  color: #767676;
+  color: #d1d1d1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: calc(22px * 1.125);
   font-weight: bold;
@@ -3802,7 +3802,7 @@ body.page .main-navigation {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6;
   text-transform: none;
-  color: #767676;
+  color: #d1d1d1;
   /*
 			 * This requires a rem-based font size calculation instead of our normal em-based one,
 			 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
@@ -4085,7 +4085,7 @@ body.page .main-navigation {
 
 .entry .entry-content .wp-block-separator,
 .entry .entry-content hr {
-  background-color: #767676;
+  background-color: #d1d1d1;
   border: 0;
   height: 2px;
   margin-bottom: 2rem;
@@ -4140,7 +4140,7 @@ body.page .main-navigation {
 
 .entry .entry-content .wp-block-separator.is-style-dots:before,
 .entry .entry-content hr.is-style-dots:before {
-  color: #767676;
+  color: #d1d1d1;
   font-size: 1.6875em;
   letter-spacing: 0.88889em;
   padding-right: 0.88889em;
@@ -4159,7 +4159,7 @@ body.page .main-navigation {
 
 .entry .entry-content .wp-block-table th,
 .entry .entry-content .wp-block-table td {
-  border-color: #767676;
+  border-color: #d1d1d1;
 }
 
 .entry .entry-content .wp-block-file {
@@ -4351,7 +4351,7 @@ body.page .main-navigation {
 
 .entry .entry-content .has-light-gray-background-color,
 .entry .entry-content .wp-block-pullquote.is-style-solid-color.has-light-gray-background-color {
-  background-color: #767676;
+  background-color: #d1d1d1;
 }
 
 .entry .entry-content .has-white-background-color,
@@ -4380,7 +4380,7 @@ body.page .main-navigation {
 .entry .entry-content .has-light-gray-color,
 .entry .entry-content .wp-block-pullquote.is-style-solid-color blockquote.has-light-gray-color,
 .entry .entry-content .wp-block-pullquote.is-style-solid-color blockquote.has-light-gray-color p {
-  color: #767676;
+  color: #d1d1d1;
 }
 
 .entry .entry-content .has-white-color,
@@ -4449,7 +4449,7 @@ svg {
 }
 
 .wp-caption-text {
-  color: #767676;
+  color: #d1d1d1;
   font-size: 0.71111em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6;

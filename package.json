@@ -1,6 +1,10 @@
 {
   "name": "shelby-paint-center",
   "version": "1.0.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/macbookandrew/Shelby-Paint-Center"
+  },
   "description": "Customized WP Theme",
   "devDependencies": {
     "@wordpress/browserslist-config": "^2.2.2",

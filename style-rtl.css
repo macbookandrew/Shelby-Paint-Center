@@ -6,7 +6,7 @@ Author: the WordPress team
 Author URI: https://wordpress.org/
 Description: A new Gutenberg-ready theme.
 Requires at least: WordPress 4.9.6
-Version: 1.1
+Version: 1.1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: twentynineteen
@@ -3347,8 +3347,6 @@ body.page .main-navigation {
 .widget_rss ul li {
   color: #d1d1d1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: calc(22px * 1.125);
-  font-weight: 700;
   line-height: 1.2;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

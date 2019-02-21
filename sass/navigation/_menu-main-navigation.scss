@@ -71,6 +71,9 @@
 
 					display: inline-block;
 					margin-right: #{0.25 * $size__spacing-unit};
+					background-color: transparent;
+					padding: 0;
+					color: inherit;
 
 					/* Priority+ Menu */
 					&.main-menu-more-toggle {
